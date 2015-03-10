@@ -99,4 +99,5 @@ public class NaiveBayesClassifier {
 
     private func totalOccurrencesOfCategory(category: Category) -> Int {
         return categoryOccurrences[category] ?? 0
+    }
 }
